@@ -1,0 +1,90 @@
+Package: pivccu
+Priority: extra
+Section: misc
+Maintainer: Alexander Reinert <alex@areinert.de>
+Architecture: armhf
+Version: 2.29.23-19
+Depends: pivccu-kernel-modules
+Pre-Depends: lxc, bridge-utils, systemd
+Filename: pool/main/p/pivccu/pivccu-2.29.23-19.deb
+Size: 58734268
+MD5sum: fe8e0addbe3be10732cf819b469a0134
+SHA1: ad7f69bb9bffeee4b43d80d02efc7e51ec57446d
+SHA256: 3f37e58e8e2625933dc6747d5d48ac9235be92eb2e81e06f6e1cc1a0b6debfab
+SHA512: d9a60fa7d11bf8676e73e780402f173fc569d595a367bc7421f52c4d03985e80bd30d863aab266544c7694b3fb2e023dd4300da7840e739af632a57332c483f3
+Description: piVCCU - Homematic CCU LXC container
+  This package contains piVCCU - a Homematic CCU LXC container
+Homepage: https://github.com/alexreinert/piVCCU
+
+Package: pivccu-devicetree-armbian
+Priority: extra
+Section: misc
+Maintainer: Alexander Reinert <alex@areinert.de>
+Architecture: armhf
+Version: 1.0.5
+Provides: pivccu-devicetree
+Filename: pool/main/p/pivccu-devicetree-armbian/pivccu-devicetree-armbian-1.0.5.deb
+Size: 2246
+MD5sum: 56f8a238cc4055ea0a62a88107d1ddf7
+SHA1: a824597b8eb044d68babf03550a9daaf1ca2c01c
+SHA256: 7ee50247de2549375215d294a266fb8aea380b5613ffc5d2e7bb0d2df15904df
+SHA512: 29edc039133f1e0da8b3521e449d37e5c917d08dd63ce1edc662f087281243d53b2d2f095daefa775dfb767aee4d2e0d5c825bad11667f883f63652cf2b506ba
+Description: piVCCU DeviceTree files for armbian
+  This package contains piVCCU DeviceTree files for armbian
+Homepage: https://github.com/alexreinert/piVCCU
+
+Package: pivccu-modules-dkms
+Priority: extra
+Section: kernel
+Maintainer: Alexander Reinert <alex@areinert.de>
+Architecture: armhf
+Version: 1.0.4
+Provides: pivccu-kernel-modules
+Pre-Depends: dkms, build-essential
+Recommends: pivccu-devicetree
+Filename: pool/main/p/pivccu-modules-dkms/pivccu-modules-dkms-1.0.4.deb
+Size: 14668
+MD5sum: ec6d0a581fcfd601108a702fa48c0bab
+SHA1: a360fb254976eb13f929e1bf3f15377952b2b836
+SHA256: d2e4c5efd49f690ad1cacf93afd961b33ab2299d80732d9cac4f24d618cf1e95
+SHA512: 460ccf140c648419532c9034b4ebe83a2c83add2f33e4680d8ed7d6cc51b0ae829920c51caf06071f611d50d2e1da3e9c1ea3b7eabf0efd2755330b66b7a172d
+Description: DKMS package for kernel modules needed for Homematic
+  This package contains the a DKMS package for kernel needed for Homematic.
+Homepage: https://github.com/alexreinert/piVCCU
+
+Package: pivccu-modules-raspberrypi
+Priority: extra
+Section: kernel
+Maintainer: Alexander Reinert <alex@areinert.de>
+Architecture: armhf
+Version: 1.20171029-1-4
+Provides: pivccu-kernel-modules
+Depends: raspberrypi-kernel (= 1.20171029-1)
+Filename: pool/main/p/pivccu-modules-raspberrypi/pivccu-modules-raspberrypi-1.20171029-1-4.deb
+Size: 15306
+MD5sum: 93bedac560883231d055ec56981a7a7b
+SHA1: 3a45c806750e48a51b97573fa2d855b97e58f25c
+SHA256: f7d8af91e77e82a8f82cbc265cb3694a4c201538765cc43df7529c0d501af89d
+SHA512: 4ee8ade75a3fcbf6630042f7b7fb84b90d36ad9ef3a941bfc3f4c035260f3244a6de9bf382ef1cfc902a718c1fb4928602ec2188b8b0c8662ce766a26ffa74a4
+Description: Raspberry Pi kernel modules needed for Homematic
+  This package contains the Raspberry Pi kernel needed for Homematic.
+Homepage: https://github.com/alexreinert/piVCCU
+
+Package: pivccu-modules-raspberrypi
+Priority: extra
+Section: kernel
+Maintainer: Alexander Reinert <alex@areinert.de>
+Architecture: armhf
+Version: 1.20170703-1-4
+Provides: pivccu-kernel-modules
+Depends: raspberrypi-kernel (= 1.20170703-1)
+Filename: pool/main/p/pivccu-modules-raspberrypi/pivccu-modules-raspberrypi-1.20170703-1-4.deb
+Size: 15298
+MD5sum: 6e7f3da25cdb24b487142f1f22f4e492
+SHA1: db8c3515fee4208a9963162adaee30a7cec38495
+SHA256: abaee081f8036f41cce4e276e0f1a3f018710a2717e0ec5423ffde1da2a654bb
+SHA512: 6cb84422362497ec85507425207affd45a93f1479d0dc108205a8108dbd08b37552ab14ad5cc78eb1fdcf9c8225e5fb72218330a1a007e1b85fa2e926e621c06
+Description: Raspberry Pi kernel modules needed for Homematic
+  This package contains the Raspberry Pi kernel needed for Homematic.
+Homepage: https://github.com/alexreinert/piVCCU
+
